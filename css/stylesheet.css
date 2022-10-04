@@ -10,7 +10,7 @@ body{
     top: 0;
     left: 0;
     padding: 10px;
-    z-index: 2;
+    z-index: 3;
 }
 
 #logo1{
@@ -73,7 +73,7 @@ body{
     top: 30px;
     bottom: 0;
     height: 400px;
-    width: 1200px;
+    width: 900px;
     background-color: rgba(143, 226, 157, 0.8);
 }
 
@@ -82,7 +82,7 @@ body{
     top: 5px;
     font-size: 15px;
     font-weight: 600;
-    color: grey;
+    color: rgb(81, 84, 81);
 }
 
 .main-newsfeed-title{
@@ -96,7 +96,7 @@ body{
 
 .main-newsfeed-text{
     height: 400px;
-    width: 900px;
+    width: 600px;
     position: absolute;
     top: 70px;
     left: 5px;
@@ -118,8 +118,8 @@ body{
     top: 270px;
     /* left: 1000px; */
     right: 0px;  
-    background-color: rgba(30, 159, 54, 0.874);
-    width: 485px;
+    background-color: rgba(43, 190, 70, 0.874);
+    width: 365px;
     height: 400px;
     align-items: center;
 }
@@ -144,20 +144,21 @@ body{
     left: 20px;
     font-weight: 600;
     font-size: larger;
+    width: 200px;
 }
 
 .minimal-newsfeed-text{
     position: relative;
-    top: 30px;
+    top: 50px;
     left: 15px;
-    width: 360px;
+    width: 250px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .minimal-newsfeed-picture{
     position: relative;
-    top: -50px;
-    left: 355px;
+    top: -29px;
+    left: 230px;
     height: 100px;
     width: 120px;
 }
@@ -166,22 +167,24 @@ body{
 
 .newspaperguy1{
     z-index: 2;
+    height: 200px;
+    width: 150px;
     position: relative;
-    left: 100px;
+    left: 160px;
     top: 30px;
 }
 
 .footer{
     position: relative;
-    height: 10vh;
+    height: 15vh;
     background-color: aquamarine;
 }
 
 .copyright{
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 150px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
 }
 
